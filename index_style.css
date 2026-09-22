@@ -5,12 +5,16 @@ div {
 
 table {
     /* This merges the cell borders so you don't get ugly double lines */
+    width: 50%;
     border-collapse: collapse; 
-    width: 100%;
 }
 
 th, td {
     /* This sets the border thickness, style, and color */
     border: 2px solid black; 
     padding: 8px;
+}
+
+th:first-child, td:first-child {
+    width: 20%; 
 }

@@ -4,4 +4,4 @@ Done:
 2. made the table and time of 30 minute intervals
 TODO:
 1. make a new page that lets the user add classes and the time of the classes
-2. display the classes on the index time table
+2. display the classes on the index time tablem

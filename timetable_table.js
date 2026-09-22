@@ -19,7 +19,7 @@ for (let i = 0; i <= 25; i++) {
         <tr>
             <td>${timeString}</td>
             <!-- names of the classes. TODO -->
-            <td>Row ${i}, Cell B</td>
+            <td></td>
         </tr>
     `;
 
