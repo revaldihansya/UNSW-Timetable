@@ -1,0 +1,9 @@
+div {
+    display: grid;
+    place-items: center;
+}
+
+img {
+    height: 100%;
+    width: 93.5%;
+}
