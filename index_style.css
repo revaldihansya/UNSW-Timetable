@@ -1,0 +1,16 @@
+div {
+    display: grid;
+    place-items: center;
+}
+
+table {
+    /* This merges the cell borders so you don't get ugly double lines */
+    border-collapse: collapse; 
+    width: 100%;
+}
+
+th, td {
+    /* This sets the border thickness, style, and color */
+    border: 2px solid black; 
+    padding: 8px;
+}

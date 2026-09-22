@@ -4,11 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>26T3 Timetable</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="index_style.css">
 </head>
 <body>
+    <h1>Welcome to my home page!</h1>
+
+    <!-- Open the image of the timetable presented on myUNSW -->
+    <a href="timetable-image.html">
+        <button>Open timetable</button>
+    </a>
+
+    <!-- Add a new class to the timetable in the homepage. TODO -->
+    <a>
+        <button>Add class</button>
+    </a>
+
+    <!-- Timetable for the day. TODO -->
     <div>
-        <img src="26T3 Timetable.PNG" alt="Timetable">
+        <table id="timetable">
+            <tr>
+                <th>Time</th>
+                <!-- the current day will be added here via the script -->
+                <th id="day"></th>
+            </tr>
+        </table>
     </div>
+
+    <!-- script that displays the classes based on our calsses database. -->
+     <!-- TODO: 
+      Get the classes for the day, and displays it based on the current time 
+      row-->
+    <script src="timetable_table.js"></script>
 </body>
 </html>
